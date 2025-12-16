@@ -1,0 +1,83 @@
+body { 
+    font-family: trebuchet MS;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header, section {
+    padding: 0px  20px;
+    max-width: 900px;
+    margin: auto;
+}
+h1, h2 {
+    color: #222;
+}
+.section-title {
+    border-bottom: 2px solid #222;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    background-image: url(penguin.jpg);
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+.project,.para,.ser,.con {
+    margin-bottom: 30px;
+    background-color:gainsboro;
+    padding: 15px;
+    border-radius: 25px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    color: white; }
+a {
+    color: gray;
+    text-decoration: none;
+}
+.t,.a,.m,.i{
+    text-align: center;
+    display: inline-block;
+    margin-left: 180px;
+    margin-top: 110px;
+    color: bla;
+}
+.image{
+    height: 250px;
+    width: 200px;
+    display: inline-block;
+    border: black solid 2px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 600px; 
+}
+.circle{
+    height: 75px;
+    width: 75px;
+    background-color:black;
+    border-radius: 50%;
+    display: inline-block;
+    position: fixed;
+    margin-top: 220px;
+    margin-left: 1000px;
+    z-index: 1;
+}
+.circle2{
+    height: 50px;
+    width: 50px;
+    background-color:white;
+    border-radius: 50%;
+    display: inline-block;
+    position: fixed;
+    margin-top: 231px;
+    margin-left: 1012px;
+    z-index: 3;
+}
